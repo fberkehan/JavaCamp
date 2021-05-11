@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Player player1 = new Player(1,"Mert Bekir", "Karademir", "00000000000", 2005); // player1 isimli yeni bir oyuncu.
-		Game game1 = new Game(1, "Valorant", "Online FPS Game", 0); //game1 isimli yeni bir oyun
+		Game game1 = new Game(1, "Valorant", "Online FPS Game", 0); //game1 isimli yeni bir oyun.
 		
 		PlayerCheckManager playerCheckManager = new PlayerCheckManager(); //Kullanici kontrol sistemi için referans tanımlama.
 		PlayerManager playerManager = new PlayerManager(playerCheckManager); //Kullanici islemleri icin referans tanımlama.
